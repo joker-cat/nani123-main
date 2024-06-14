@@ -25,7 +25,7 @@ function moveOutputPlugin() {
 export default defineConfig({
   // base 的寫法：
   // base: '/Repository 的名稱/'
-  base: process.env.NODE_ENV === 'production' ? '/nani123/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/nani123-main/' : '/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
